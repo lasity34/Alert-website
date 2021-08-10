@@ -1,0 +1,46 @@
+.content-section {
+    padding-top: 65px;
+     padding-bottom: 65px; 
+  }
+
+  @media screen and (max-width: 991px) {
+    .container {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+}
+
+.meet-the-owners-wrapper {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+  
+  .meet-the-owners-right {
+    width: 70%;
+    padding: 90px 55px 90px 245px;
+    border-radius: 5px;
+    background-color: #222;
+    color: #f9f9f9;
+  }
+  
+  .meet-the-owners-left {
+    position: absolute;
+    left: 0%;
+    top: 5%;
+    right: auto;
+    bottom: 0%;
+    width: 45%;
+    height: 90%;
+    border-radius: 5px;
+    background-image: url(../images/About\ us\ photo.jpg);
+    background-position: 50% 100%;
+    background-size: cover;
+  }
+  

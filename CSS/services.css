@@ -1,0 +1,56 @@
+.e17-12.x-section {
+    margin: 0px;
+     padding: 0px;
+    background-color: transparent;
+    z-index: 1;
+    transition-timing-function: cubic-bezier(0.400,0.000,0.200,1.000);
+}
+
+.x-section {
+    display: block;
+    position: relative;
+    margin: 0 0 1.313em;
+    padding: 45px 0;
+}
+
+x-section .x-container.marginless-columns>.x-column.x-2-5 {
+    padding: 100px 50px;
+}
+
+.x-section .x-container.marginless-columns>.x-column {
+    display: table-cell;
+    margin-right: 0;
+    float: none;
+    vertical-align: top;
+}
+
+.x-section .x-container.marginless-columns.flex-container.minheight {
+    min-height: 400px;
+}
+
+@media screen and (min-width: 767px) {
+.x-section .x-container.marginless-columns.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    vertical-align: middle;
+}
+}
+
+x-column {
+    opacity: 1; 
+    transform: translate(0px, 0px);
+     transition-duration: 4s;
+}
+
+@media (max-width: 1366px) and (min-width: 768px) {
+.x-section .x-container.marginless-columns.responsive-split>.x-column.x-2-5 {
+    width: 50%;
+}
+}
+
+.image-services {
+     background-image: url(../images/service2.jpg);
+     background-repeat: no-repeat; background-position: center;
+     background-size: cover;
+}

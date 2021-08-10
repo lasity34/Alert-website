@@ -1,0 +1,418 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+li{
+    list-style: none;
+}
+.navbar-nav {
+    float: right;
+}
+
+.navbar-fixed-top {
+    width: 100%;
+    color: beige;
+}
+
+.navbar-default {
+    border-color: transparent;
+    background-color: rgba(255,255,255,0.0);
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.navbar-default.opaqued .navbar-nav > li > a, .navbar-default.opaqued .navbar-brand h1, .navbar-default.opaqued .navbar-brand {
+    color: #ffffff;
+    background: transparent;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    font-size: 16px;
+}
+
+.navbar-default.opaqued h1 {
+    font-size: 38px !important;
+    position: relative;
+    top: -10px;
+}
+
+.navgar-default.opaqued {
+    padding: 25px 0;
+}
+
+.navbar-toggle {
+    border-color: transparent;
+    border: 0px solid transparent;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand h1 {
+    margin: 15px 0;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #2980b9;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    background-color: transparent;
+    color: #202020;
+}
+
+.navbar-default .navbar-nav > li > a:hover:after,
+.navbar-default .navbar-nav > li > a:focus:after,
+.navbar-default .navbar-nav > .active > a:focus:after,
+.navbar-default .navbar-nav > .active > a:hover:after,
+.navbar-default .navbar-nav > .active > a:after {
+    content: '';
+    width: 34px;
+    height: 5px;
+    position: absolute;
+    border-bottom: 2px solid #2980b9;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -17px;
+    top: 55px;
+}
+
+.navbar-default.opaqued .navbar-nav > .active > a:focus:after,
+.navbar-default.opaqued .navbar-nav > .active > a:hover:after,
+.navbar-default.opaqued .navbar-nav > .active > a:after {
+    content: '';
+    width: 34px;
+    height: 5px;
+    position: absolute;
+    border-bottom: 2px solid #fff;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -17px;
+    top: 55px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.navbar-nav > li > a:after {
+    content: '';
+    width: 34px;
+    height: 5px;
+    position: absolute;
+    border-bottom: none;
+    margin: 0 auto;
+    left: 50%;
+    margin-left: -17px;
+    top: 55px;
+}
+
+/* header */
+#headerwrap {
+    margin-top: 0px;
+    padding-top: 120px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 650px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+    color: #ffffff;
+    margin-top: 60px;
+    padding-bottom: 30px;
+    letter-spacing: 8px;
+    font-size: 100px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #000;
+}
+
+#headerwrap p {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 40px;
+    letter-spacing: 3px;
+    margin-left: 15px;
+    text-shadow: 1px 1px 1px #000;
+}
+/* Links */
+a {
+    color: #3498db;
+    word-wrap: break-word;
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+
+}
+
+a:hover,
+a:focus {
+    color: #c0392b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+/* image load animations */
+.no-display {
+    opacity: 0;
+}
+
+.appear {
+    opacity: 1;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.backstretch:before {
+    content: '';
+    background-image: url('../images/02.png');
+    min-width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+}
+
+/* buttons */
+.homebtn {
+    border: 3px solid #fff;
+    color: #fff;
+    border-radius: 0;
+    padding: 15px 20px;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.homebtn:hover {
+    border: 3px solid #fff;
+    background-color: #fff;
+    color: #222;
+}
+
+
+section,
+.section-padding {
+  padding: 70px 0;
+  position: relative;
+}
+
+.ts-service-image-wrapper {
+    margin-bottom: 30px;
+}
+
+
+/* contacts page */
+.banner-area {
+    position: relative;
+    min-height: 300px;
+    color: #fff;
+    background-image: url(../images/headerbg.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.banner-heading {
+    text-align: center;
+}
+
+.banner-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 58px;
+    font-weight: 900;
+    padding-top: 30px;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    max-width: 1170px;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 1;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.breadcrumb {
+    padding: 0;
+    background: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.breadcrumb li a, .breadcrumb .breadcrumb-item, .breadcrumb li a:focus, .breadcrumb li a:hover {
+    color: #fff !important;
+}
+
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: .5rem;
+}
+
+/* contacts ways */
+.ts-service-box-bg {
+    background: #252525;
+    color: #fff;
+    padding: 30px;
+}
+
+.ts-service-icon.icon-round i {
+    font-size: 24px;
+    color: #fff;
+    background: #ffb600;
+    text-align: center;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    position: relative;
+    float: none;
+}
+
+.map-container {
+   padding: 30px;
+   
+}
+
+iframe {
+    position: relative;
+ left: 25%;
+ width: 50%;
+}
+
+#email {
+    color: aliceblue;
+}
+
+#email:hover {
+    color: yellow;
+}
+
+#locationcontact {
+    color: whitesmoke;
+}
+
+#locationcontact:hover {
+    color: yellow;
+}
+
+/* Footer */
+
+
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+
+.nav-list li a:hover{
+    color: tomato;
+}
+
+.container {
+    padding-top: 30px;
+    width: 75%;
+}
+
+.container2 {
+    padding-top: 30px;
+    width: 100%;
+}
+
+.footlink:hover {
+    color: tomato;
+}
+
+.footquote {
+    margin-top: 5%;
+}
