@@ -69,4 +69,8 @@ $(function () {
     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
   });
 });
+
+function myFunction(x) {
+  x.classList.toggle("change");
+}
 //# sourceMappingURL=index.dev.js.map

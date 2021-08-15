@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="Construction Html5 Template">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="images/favicon.png">
+ 
     <script src="https://kit.fontawesome.com/31ce7c5f66.js" crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" href="./CSS/bootstrap.css">
@@ -31,12 +31,16 @@
 	      <div class="container">
 	        <div class="navbar-header">
 	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-	          	<i class="el-icon-lines"></i>
+	          	<div class="container-button" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
 	          </button>
 	          <a class="navbar-brand hidden-xs hidden-sm" href="./index.html"><img src="./Resources/LOGO ALERT CHRIS.png" width="120px" alt=""></a>
 	        </div>
-	        <div class="navbar-collapse collapse">
-	          	<ul class="nav navbar-nav">
+	        <div class="navbar-collapse collapse" >
+	          	<ul class="nav navbar-nav" id="nav-icon">
                     <li><a href="./index.html" class="smoothScroll">Home</a></li>
 					<li> <a href="./about.html" class="smoothScroll">About Us</a></li>
 					<li> <a href="./services.html" class="smoothScroll">Services</a></li>					
