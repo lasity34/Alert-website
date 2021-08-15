@@ -418,3 +418,10 @@ ul, ol {
 .footquote {
     margin-top: 5%;
 }
+
+@media only screen 
+and (max-width : 920px) {
+    .footcontainer {
+    text-align: center;
+ }
+}
