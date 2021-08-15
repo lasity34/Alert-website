@@ -19,10 +19,12 @@ li{
     float: right;
 }
 
-.navbar-fixed-top {
-    width: 100%;
-    color: beige;
-}
+
+
+.navbar-fixed-top.scrolled {
+    background-color:#252525 !important;
+    transition: background-color 200ms linear;
+  }
 
 .navbar-default {
     border-color: transparent;
@@ -400,7 +402,7 @@ ul, ol {
 }
 
 .container {
-    padding-top: 30px;
+    padding-top: 10px;
     width: 75%;
 }
 

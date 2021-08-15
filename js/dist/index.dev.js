@@ -63,35 +63,10 @@ jQuery(document).ready(function () {
     cursorborder: '0px solid #fff'
   });
 });
-$(window).scroll(function () {
-  if (jQuery('body').hasClass('single')) {
-    var scroll_pos = 0;
-    $(document).scroll(function () {
-      var windowsHeight = $(window).height();
-      scroll_pos = $(this).scrollTop();
-
-      if (scroll_pos > 300) {
-        $(".navbar-default").css('background-color', 'rgba(255,255,255,1.0)');
-        $('.navbar-default').removeClass('opaqued');
-      } else {
-        $(".navbar-default").css('background-color', 'rgba(255,255,255,0.0)');
-        $('.navbar-default').addClass('opaqued');
-      }
-    });
-  } else {
-    var scroll_pos = 0;
-    $(document).scroll(function () {
-      var windowsHeight = $(window).height();
-      scroll_pos = $(this).scrollTop();
-
-      if (scroll_pos > windowsHeight) {
-        $(".navbar-default").css('background-color', 'rgba(255,255,255,1.0)');
-        $('.navbar-default').removeClass('opaqued');
-      } else {
-        $(".navbar-default").css('background-color', 'rgba(255,255,255,0.0)');
-        $('.navbar-default').addClass('opaqued');
-      }
-    });
-  }
+$(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar-fixed-top");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
 });
 //# sourceMappingURL=index.dev.js.map
