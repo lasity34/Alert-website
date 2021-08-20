@@ -25,27 +25,32 @@
 <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
    
 	<div id="navbar-main">
-      <!-- Fixed navbar -->
-	    <div class="navbar navbar-default navbar-fixed-top">
-	      <div class="container">
-	        <div class="navbar-header">
-	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-	          	<i class="el-icon-lines"></i>
-	          </button>
-	          <a class="navbar-brand hidden-xs hidden-sm" href="#home"><img src="./Resources/LOGO ALERT CHRIS.png" width="150px" alt=""></a>
-	        </div>
-	        <div class="navbar-collapse collapse">
-	          	<ul class="nav navbar-nav">
-                    <li><a href="./index.html" class="smoothScroll">Home</a></li>
-					<li> <a href="./about.html" class="smoothScroll">About Us</a></li>
-					<li> <a href="./services.html" class="smoothScroll">Services</a></li>					
-					<li> <a href="./developments.html" class="smoothScroll">Developments</a></li>
-					<li> <a href="./contact.html" class="smoothScroll">Contact</a></li>
-				</ul>
-	        </div><!--/.nav-collapse -->
-	      </div>
-	    </div>
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container" >
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" id="navbar-icon">
+      <div class="container-button" onclick="myFunction(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        </div>
+          </button>
+          <a class="navbar-brand hidden-xs hidden-sm" href="#home"><img src="./Resources/LOGO ALERT CHRIS.png" width="120px" alt=""></a>
+        </div>
+        <div class="navbar-collapse collapse" id="nav-color">
+            <ul class="nav navbar-nav" id="nav-icon">
+              <li><a href="#home" class="smoothScroll">Home</a></li>
+        <li> <a href="./about.html" class="smoothScroll">About Us</a></li>
+        <li> <a href="./services.html" class="smoothScroll">Services</a></li>					
+        <li> <a href="./developments.html" class="smoothScroll">Developments</a></li>
+        <li> <a href="./contact.html" class="smoothScroll">Contact</a></li>
+      </ul>
+        </div><!--/.nav-collapse -->
+      </div>
     </div>
+  </div>
+
     <div id="banner-area" class="banner-area" >
         <div class="banner-text">
           <div class="container">
@@ -129,44 +134,52 @@
          
 
 
-  <footer class="section footer-classic context-dark bg-image " style="background: #2d3246;">
-    <div class="container2">
-      <div class="row row-30">
-        <div class="col-md-4 col-xl-5">
-          <div class="pr-xl-4 footquote">
-            <p>the number One Choice when it comes to PVC Fencing. Contact Absolut Fencing Today for a Free Quotation.</p>
-            <!-- Rights-->
-            <p class="rights"><span>©  </span><span class="copyright-year">2021</span><span> </span><span>Copyright</span><span>. </span><span>All Rights Reserved.</span></p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <h5>Contacts</h5>
-          <dl class="contact-list">
-            <dt>Address:</dt>
-            <dd>Cape Town</dd>
-          </dl>
-          <dl class="contact-list">
-            <dt>email:</dt>
-            <dd><a href="mailto:alertboundary.co.za" class="footlink">alertboundary.co.za</a></dd>
-          </dl>
-          <dl class="contact-list">
-            <dt>phone Number:</dt>
-            <dd><a href="tel:0825755909" class="footlink">(+27) 825755909</a>
-            </dd>
-          </dl>
-        </div>
-        <div class="col-md-4 col-xl-3">
-          <h5>Links</h5>
-          <ul class="nav-list">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./about.html">About Us</a></li>
-            <li><a href="./services.html">Services</a></li>
-            <li><a href="./developments.html">Developments</a></li>
-    <li><a href="./contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
+          <footer class="section footer-classic context-dark bg-image " style="background: #2d3246;">
+            <div class="container footcontainer">
+              <div class="row row-30">
+              <div class="col-md-4 col-xl-5">
+                <div class="pr-xl-4 footquote">
+                <p>As one of Cape Town's leading suppliers & installers of steel fencing materials, here at Envirometal Steel, 
+                  we believe in creating an experience where you the customer, comes first. For steel fencing supplies and qualified fencing installers, 
+                  we offer products from Cape Town's most trusted brands and can source products for you at competitive prices.</p>
+                <!-- Rights-->
+                <p class="rights"><span>©  </span><span class="copyright-year">2021</span><span> </span><span>Copyright</span><span>. </span><span>All Rights Reserved.</span></p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <h5>Contacts</h5>
+                <dl class="contact-list">
+                <dt>Address:</dt>
+                <dd>80 Eksteen Street
+                  <br>
+                  Loevenstein
+                  <br>
+                  Bellville
+                  <br>
+                  7530</dd>
+                </dl>
+                <dl class="contact-list">
+                <dt>email:</dt>
+                <dd><a href="mailto:andries@alertboundary.co.za">andries@alertboundary.co.za</a></dd>
+                </dl>
+                <dl class="contact-list">
+                <dt>phone Number:</dt>
+                <dd><a href="tel:#">(+27) 825755909</a>
+                </dd>
+                </dl>
+              </div>
+              <div class="col-md-4 col-xl-3">
+                <h5>Links</h5>
+                <ul class="nav-list">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./developments.html">Developments</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                </ul>
+              </div>
+              </div>
+            </div>
     
   </footer>
    <!-- Google Map API Key-->
