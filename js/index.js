@@ -23,10 +23,10 @@ jQuery(document).ready(function(){
       $('#headerwrap').css('height', windowsHeight + 'px');
     
       $('#headerwrap').backstretch([
-            "images/bg1.jpg"
+            "./images/home images/ImageHeader.jpeg"
           , "images/bg2.jpg"
           , "images/bg3.jpg"
-        ], {duration: 3000, fade: 750});
+        ], {duration: 4000, fade: 750});
     
     jQuery(document).ready(function(){
     

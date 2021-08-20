@@ -8,8 +8,7 @@ body {
     font-weight: 300;
     font-size: 16px;
     color: #555;
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
+
 }
 
 li{
@@ -29,20 +28,12 @@ li{
 .navbar-default {
     border-color: transparent;
     background-color: rgba(255,255,255,0.0);
-    -webkit-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-    -ms-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
 }
 
 .navbar-default.opaqued .navbar-nav > li > a, .navbar-default.opaqued .navbar-brand h1, .navbar-default.opaqued .navbar-brand {
     color: #ffffff;
     background: transparent;
-    -webkit-transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-    -ms-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     font-size: 16px;
 }
@@ -164,112 +155,6 @@ li{
   }
 
 
-/* header */
-#headerwrap {
-    margin-top: 0px;
-    padding-top: 120px;
-    text-align: center;
-    background-attachment: relative;
-    background-position: center center;
-    min-height: 650px;
-    width: 100%;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-#headerwrap h1 {
-    color: #ffffff;
-    margin-top: 60px;
-    padding-bottom: 30px;
-    letter-spacing: 8px;
-    font-size: 100px;
-    font-weight: bold;
-    text-shadow: 2px 2px 2px #000;
-}
-
-#headerwrap p {
-    color: #ffffff;
-    font-size: 40px;
-    font-weight: 400;
-    text-align: center;
-    line-height: 40px;
-    letter-spacing: 3px;
-    margin-left: 15px;
-    text-shadow: 1px 1px 1px #000;
-}
-/* Links */
-a {
-    color: #3498db;
-    word-wrap: break-word;
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
-
-}
-
-a:hover,
-a:focus {
-    color: #c0392b;
-    text-decoration: none;
-    outline: 0;
-}
-
-a:before,
-a:after {
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
-}
-
-/* image load animations */
-.no-display {
-    opacity: 0;
-}
-
-.appear {
-    opacity: 1;
-    -webkit-transition: all .4s ease-in-out;
-    -moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-}
-
-.backstretch:before {
-    content: '';
-    background-image: url('../images/02.png');
-    min-width: 100%;
-    height: 100%;
-    position: absolute;
-    display: block;
-}
-
-/* buttons */
-.homebtn {
-    border: 3px solid #fff;
-    color: #fff;
-    border-radius: 0;
-    padding: 15px 20px;
-    font-size: 22px;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-.homebtn:hover {
-    border: 3px solid #fff;
-    background-color: #fff;
-    color: #222;
-}
-
 
 section,
 .section-padding {
@@ -333,26 +218,6 @@ section,
     padding-left: .5rem;
 }
 
-/* contacts ways */
-.ts-service-box-bg {
-    background: #252525;
-    color: #fff;
-    padding: 30px;
-}
-
-.ts-service-icon.icon-round i {
-    font-size: 24px;
-    color: #fff;
-    background: #ffb600;
-    text-align: center;
-    border-radius: 100%;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    margin-bottom: 20px;
-    position: relative;
-    float: none;
-}
 
 .map-container {
    padding: 30px;
@@ -460,14 +325,6 @@ and (max-width : 920px) {
     text-align: center;
  }
 }
-
-@media only screen 
-and (max-width : 820px) {
-    #nav-icon {
-        background-color: #202020;
-    }
-}
-
 
 #navbar-icon {
     background-color: transparent;

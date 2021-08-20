@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="./CSS/bootstrap.css">
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/animate.css">
-	
+	<link rel="stylesheet" href="./CSS/index.css">
     
     <link rel="stylesheet" href="./CSS/elusive-webfont.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
@@ -26,7 +26,7 @@
 	<div id="navbar-main">
       <!-- Fixed navbar -->
 	    <div class="navbar navbar-default navbar-fixed-top">
-	      <div class="container">
+	      <div class="container" >
 	        <div class="navbar-header">
 	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" id="navbar-icon">
 				<div class="container-button" onclick="myFunction(this)">
@@ -35,9 +35,9 @@
 					<div class="bar3"></div>
 				  </div>
 	          </button>
-	          <a class="navbar-brand hidden-xs hidden-sm" href="#home"><img src="./Resources/LOGO ALERT CHRIS.png" width="150px" alt=""></a>
+	          <a class="navbar-brand hidden-xs hidden-sm" href="#home"><img src="./Resources/LOGO ALERT CHRIS.png" width="120px" alt=""></a>
 	        </div>
-	        <div class="navbar-collapse collapse">
+	        <div class="navbar-collapse collapse" id="nav-color">
 	          	<ul class="nav navbar-nav" id="nav-icon">
 		            <li><a href="#home" class="smoothScroll">Home</a></li>
 					<li> <a href="./about.html" class="smoothScroll">About Us</a></li>
@@ -63,20 +63,21 @@
 	    </div><!-- /headerwrap -->
 	
 		<section id="ts-features" class="ts-features pb-2">
-			<div class="container">
+			<div class="container" >
 			  <div class="row">
 				  <div class="col-lg-4 col-md-6 mb-5">
 					<div class="ts-service-box">
 						<div class="ts-service-image-wrapper">
-						  <img loading="lazy" class="w-100" src="./images/service1.jpg" alt="service-image">
+						  <img loading="lazy" class="w-100" src="./images/home images/banner image 2.jpg"  alt="service-image" id="img-banner" >
 						</div>
 						<div class="d-flex">
 						  <div class="ts-service-box-img">
-							  <img loading="lazy" src="./images/service-icon1.png" alt="service-icon" />
+							  <img loading="lazy" src="./images/home images/fence and branding icon.png" width="60px" height="60px" alt="service-icon" />
 						  </div>
 						  <div class="ts-service-info">
-							  <h3 class="service-box-title">Zero Harm Everyday</h3>
-							  <p>You have ideas, goals, and dreams. We have a culturally diverse, forward thinking team looking for talent like. Lorem ipsum dolor suscipit.</p>
+							  <h3 class="service-box-title">Fence Supply & branding</h3>
+							  <p>Fence supply and branding on the fence is one of our special services.
+								   We have our in-house printing and installation facility and team to do branding on the fence.</p>
 						  </div>
 						</div>
 					</div><!-- Service1 end -->
@@ -85,15 +86,15 @@
 				  <div class="col-lg-4 col-md-6 mb-5">
 					<div class="ts-service-box">
 						<div class="ts-service-image-wrapper">
-						  <img loading="lazy" class="w-100" src="./images/service2.jpg" alt="service-image">
+						  <img loading="lazy" class="w-100" src="./images/home images/service3.jpg" id="img-banner" alt="service-image">
 						</div>
 						<div class="d-flex">
 						  <div class="ts-service-box-img">
-							  <img loading="lazy" src="./images/service-icon2.png" alt="service-icon" />
+							  <img loading="lazy" src="./images/home images/Consultancy.png" width="60px" height="60px" alt="service-icon" />
 						  </div>
 						  <div class="ts-service-info">
-							  <h3 class="service-box-title">Virtual Construction</h3>
-							  <p>You have ideas, goals, and dreams. We have a culturally diverse, forward thinking team looking for talent like. Lorem ipsum dolor suscipit.</p>							 
+							  <h3 class="service-box-title">Consultancy</h3>
+							  <p>When you are not sure about the solution you want, be it type of security, Gates, Automation, we are there to advise you.</p>							 
 						  </div>
 						</div>
 					</div><!-- Service2 end -->
@@ -102,15 +103,15 @@
 				  <div class="col-lg-4 col-md-6 mb-5">
 					<div class="ts-service-box">
 						<div class="ts-service-image-wrapper">
-						  <img loading="lazy" class="w-100" src="./images/service3.jpg" alt="service-image">
+						  <img loading="lazy" class="w-100" src="./images/home images/home banner image.jpeg"  id="img-banner" alt="service-image">
 						</div>
 						<div class="d-flex">
 						  <div class="ts-service-box-img">
-							  <img loading="lazy" src="./images/service-icon3.png" alt="service-icon" />
+							  <img loading="lazy" src="./images/home images/support.png" alt="service-icon" width="50px" height="50px" />
 						  </div>
 						  <div class="ts-service-info">
-							  <h3 class="service-box-title">Build To Last</h3>
-							  <p>You have ideas, goals, and dreams. We have a culturally diverse, forward thinking team looking for talent like. Lorem ipsum dolor suscipit.</p>
+							  <h3 class="service-box-title">Residential & Commerical Fencing</h3>
+							  <p>We will work with you to choose the fence most suitable for your property. Our team can advise on fence types and functionality to meet your expectations.</p>
 						  </div>
 						</div>
 					</div><!-- Service3 end -->
@@ -120,11 +121,13 @@
 		  </section><!-- Feature are end -->
 
 		  <footer class="section footer-classic context-dark bg-image " style="background: #2d3246;">
-			<div class="container">
+			<div class="container footcontainer">
 			  <div class="row row-30">
 				<div class="col-md-4 col-xl-5">
 				  <div class="pr-xl-4 footquote">
-					<p>the number One Choice when it comes to PVC Fencing. Contact Absolut Fencing Today for a Free Quotation.</p>
+					<p>As one of Cape Town's leading suppliers & installers of steel fencing materials, here at Envirometal Steel, 
+					  we believe in creating an experience where you the customer, comes first. For steel fencing supplies and qualified fencing installers, 
+					  we offer products from Cape Town's most trusted brands and can source products for you at competitive prices.</p>
 					<!-- Rights-->
 					<p class="rights"><span>©  </span><span class="copyright-year">2021</span><span> </span><span>Copyright</span><span>. </span><span>All Rights Reserved.</span></p>
 				  </div>
@@ -133,11 +136,17 @@
 				  <h5>Contacts</h5>
 				  <dl class="contact-list">
 					<dt>Address:</dt>
-					<dd>Cape Town</dd>
+					<dd>80 Eksteen Street
+					  <br>
+						Loevenstein
+					  <br>
+						Bellville
+					  <br>
+						7530</dd>
 				  </dl>
 				  <dl class="contact-list">
 					<dt>email:</dt>
-					<dd><a href="mailto:alertboudary.co.za">alertboundary.co.za</a></dd>
+					<dd><a href="mailto:andries@alertboundary.co.za">andries@alertboundary.co.za</a></dd>
 				  </dl>
 				  <dl class="contact-list">
 					<dt>phone Number:</dt>
