@@ -7,8 +7,7 @@ body {
     font-family: 'Open Sans';
     font-weight: 300;
     font-size: 16px;
-    color: #555;
-
+    color: #555;;
 }
 
 li{
@@ -104,11 +103,12 @@ li{
 }
 
 .navbar-nav > li > a {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
+    border: none;
 }
 
 .navbar-nav > li > a:after {
@@ -137,23 +137,6 @@ li{
     transition: 0.4s;
   }
   
-  /* Rotate first bar */
-  .change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-    transform: rotate(-45deg) translate(-9px, 6px) ;
-  }
-  
-  /* Fade out the second bar */
-  .change .bar2 {
-    opacity: 0;
-  }
-  
-  /* Rotate last bar */
-  .change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-    transform: rotate(45deg) translate(-8px, -8px) ;
-  }
-
 
 
 section,
@@ -347,8 +330,22 @@ and (max-width : 920px) {
     .footcontainer {
     text-align: center;
  }
-}
+
 
 #navbar-icon {
-    background-color: transparent;
+    background-color:#252525 !important;
+
+
+}
+#nav-icon {
+    background-color:#252525 !important;
+    overflow:hidden;
+    line-height: 0;
+    float: right;
+    width: auto;
+    border-radius: 5px;
+    border: none;
+    
+}
+
 }
