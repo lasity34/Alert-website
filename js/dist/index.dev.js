@@ -18,7 +18,7 @@ var windowsHeight = $(window).height();
 $('#headerwrap').css('height', windowsHeight + 'px');
 $('#headerwrap').backstretch(["./images/home images/ImageHeader.jpeg", "images/bg2.jpg", "images/bg3.jpg"], {
   duration: 4000,
-  fade: 750
+  fade: 1350
 });
 jQuery(document).ready(function () {
   jQuery('.service-icon-wrapper, .fade-up, .fade-down, .team-image-wrapper').addClass('no-display');

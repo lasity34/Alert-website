@@ -26,7 +26,7 @@ jQuery(document).ready(function(){
             "./images/home images/ImageHeader.jpeg"
           , "images/bg2.jpg"
           , "images/bg3.jpg"
-        ], {duration: 4000, fade: 750});
+        ], {duration: 4000, fade: 1350});
     
     jQuery(document).ready(function(){
     
@@ -101,5 +101,7 @@ jQuery(document).ready(function(){
     function myFunction(x) {
       x.classList.toggle("change");
     }
+
+
 
     

@@ -1,56 +1,72 @@
-.e17-12.x-section {
-    margin: 0px;
-     padding: 0px;
-    background-color: transparent;
-    z-index: 1;
-    transition-timing-function: cubic-bezier(0.400,0.000,0.200,1.000);
+@font-face {
+  font-family: 'zantrokeregular';
+  src: url('zantroke-webfont.woff2') format('woff2'),
+       url('zantroke-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.x-section {
-    display: block;
-    position: relative;
-    margin: 0 0 1.313em;
-    padding: 45px 0;
+html {
+  font-size: 16px;
 }
 
-x-section .x-container.marginless-columns>.x-column.x-2-5 {
-    padding: 100px 50px;
+body {
+ 
+  font-size: 1rem;
 }
 
-.x-section .x-container.marginless-columns>.x-column {
-    display: table-cell;
-    margin-right: 0;
-    float: none;
-    vertical-align: top;
+.main-container {
+  width: 98%;
+  margin: 5px auto ;
 }
 
-.x-section .x-container.marginless-columns.flex-container.minheight {
-    min-height: 400px;
+.columns {
+display: flex;
+justify-content: space-evenly;
+
+align-items: center;
 }
 
-@media screen and (min-width: 767px) {
-.x-section .x-container.marginless-columns.flex-container {
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    vertical-align: middle;
-}
+.left-img img,
+.right-img img{
+  width: 100%;
+  
 }
 
-x-column {
-    opacity: 1; 
-    transform: translate(0px, 0px);
-     transition-duration: 4s;
+.right-text, .left-text {
+ max-width: 70%;
+ padding: 0.5em;
+ font-size: 1em;
+ text-align: center;
+
 }
 
-@media (max-width: 1366px) and (min-width: 768px) {
-.x-section .x-container.marginless-columns.responsive-split>.x-column.x-2-5 {
-    width: 50%;
-}
+.col-1 {
+  width: 65%;
 }
 
-.image-services {
-     background-image: url(../images/service2.jpg);
-     background-repeat: no-repeat; background-position: center;
-     background-size: cover;
+.col-2 {
+ width:  35%;
 }
+
+@media only screen 
+and (max-width : 720px) {
+  .main-container {
+    width: 100%;
+    
+  }
+
+  .columns {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .col-1 {
+    width: 95%;
+  }
+
+  .col-2 {
+    width: 95%;
+  }
+ }
+
+
