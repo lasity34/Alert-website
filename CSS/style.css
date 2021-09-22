@@ -1,10 +1,12 @@
+/* global */
+
 html,
 body {
     height: 100%;
 }
 
 body {
-    font-family: 'Open Sans';
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
     font-size: 18px;
     color: #555;;
@@ -13,6 +15,19 @@ body {
 li{
     list-style: none;
 }
+
+h1 {
+    color: #252525
+}
+
+.link {
+    padding: 0.5em 1em;
+    color: aliceblue;
+    background: #252525;
+}
+
+/* nav */
+
 .navbar-nav {
     float: right;
 }
@@ -69,7 +84,7 @@ li{
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     background-color: transparent;
-    color: #202020;
+    color: #d91e44;
 }
 
 .navbar-default .navbar-nav > li > a:hover:after,
@@ -245,30 +260,7 @@ iframe {
     
 }
 
-/* contacts ways */
-.ts-service-box-bg {
-    background: #252525;
-    color: #fff;
-    padding: 30px;
-}
 
-.ts-service-icon.icon-round i {
-    font-size: 24px;
-    color: #fff;
-    background: #ffb600;
-    text-align: center;
-    border-radius: 100%;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    margin-bottom: 20px;
-    position: relative;
-    float: none;
-}
-
-.ts-service-image-wrapper {
-    margin-bottom: 30px;
-}
 
 ul, ol {
     list-style: none;
