@@ -8,7 +8,7 @@ body {
 body {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.75rem;
     color: #555;;
 }
 
@@ -20,11 +20,7 @@ h1 {
     color: #252525
 }
 
-.link {
-    padding: 0.5em 1em;
-    color: aliceblue;
-    background: #252525;
-}
+
 
 /* nav */
 
