@@ -163,6 +163,7 @@ a:after {
  .about-header {
      text-align: center;
      margin-bottom: 2em;
+     text-decoration: underline;
      
  }
 
