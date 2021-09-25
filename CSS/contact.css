@@ -8,10 +8,6 @@
     ;
 }
 
-.contact-form {
-    width: 50%;
-}
-
 .contact-info {
     position: relative;
     margin-top: -6em;
@@ -58,13 +54,21 @@ i {
     text-transform: uppercase;
 }
 
+.map-container {
+    width: 100%;
+    
+}
+
 iframe {
-    position: relative;
- left: 25%;
- width: 50%;
+ width: 100%;
+ height: 400px;
 }
 
 /* form */
+
+.contact-form {
+    width: 50%;
+}
 
 
 .contact-form h1 {
@@ -116,3 +120,19 @@ textarea {
   font-weight:700;
 }
 [type="submit"]:hover { background:#CC4949; }
+
+
+@media only screen 
+and (max-width : 720px) {
+  .contacts-container {
+    width: 90%;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .contact-info, .contact-form {
+      width: 100%;
+      margin: 1em;
+  }
+}
