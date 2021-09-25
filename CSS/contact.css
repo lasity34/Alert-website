@@ -1,0 +1,118 @@
+
+
+.contacts-container {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    ;
+}
+
+.contact-form {
+    width: 50%;
+}
+
+.contact-info {
+    position: relative;
+    margin-top: -6em;
+    width: 30%;
+    background-image: url('../images/contact/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    text-align: center;
+    padding: 5em 4em;
+    border-radius: 5px;
+}
+
+.contact-info p {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    color: #9f9e9e;
+    
+}
+
+i {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contact-icon {
+    text-align: left;
+    padding: 1em 0;
+}
+
+.contact-icon a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-icon a:hover,
+.contact-icon a:focus
+{
+    color:  #d91e44;
+    transition: all .2s ease-in-out;
+}
+
+.contact-icon h4 {
+    text-transform: uppercase;
+}
+
+iframe {
+    position: relative;
+ left: 25%;
+ width: 50%;
+}
+
+/* form */
+
+
+.contact-form h1 {
+    text-align: center;
+}
+
+
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:#252525;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #CC6666;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#CC6666;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }

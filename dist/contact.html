@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,8 @@
     <link rel="icon" type="image/png" href="images/favicon.png">
     <script src="https://kit.fontawesome.com/31ce7c5f66.js" crossorigin="anonymous"></script>
 
+  <link rel="stylesheet" href="./CSS/contact.css">
+  <link rel="stylesheet" href="./CSS/contact.scss">
 	<link rel="stylesheet" href="./CSS/bootstrap.css">
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/animate.css">
@@ -69,55 +72,54 @@
       </div><!-- Banner area end -->
         
       
-      
+
       <section>
         <div class="contacts-container">
-          <h2 class="contacts-title">Reaching our Office</h2>
-          <h3 class="contacts-sub-title">Find Our Location</h3>
-         
-          <!--/ Title row end -->
-      
-
-
-          <div class="row">
-            <div class="col-md-4">
-              <div class="ts-service-box-bg text-center h-100">
-                <span class="ts-service-icon icon-round">
-                  <i class="fas fa-map-marker-alt mr-0"></i>
-                </span>
-                <div class="ts-service-box-content">
-                  <h4>Visit Our Office</h4>
-                  <a href="https://goo.gl/maps/RHv4bG4AmDtsioM38" target="_blank" id="locationcontact"><p>Cape Town, South Africa</p> </a>
-                </div>
-              </div>
-            </div><!-- Col 1 end -->
-      
-            <div class="col-md-4">
-              <div class="ts-service-box-bg text-center h-100">
-                <span class="ts-service-icon icon-round">
-                  <i class="fa fa-envelope mr-0"></i>
-                </span>
-                <div class="ts-service-box-content">
-                  <h4>Email Us</h4>
-                  <p><a href="mailto:EmailAddress@.XYZ.com" id="email">andries@alertboundary.co.za</a></p>
-                </div>
-              </div>
-            </div><!-- Col 2 end -->
-      
-            <div class="col-md-4">
-              <div class="ts-service-box-bg text-center h-100">
-                <span class="ts-service-icon icon-round">
-                  <i class="fa fa-phone-square mr-0"></i>
-                </span>
-                <div class="ts-service-box-content">
-                  <h4>Call Us</h4>
-                  <p>(+27) 825755909</p>
-                </div>
-              </div>
-            </div>
-
-          </div><!-- Col 3 end -->
+          <div class="contact-form">
+            <h1>Contact Form</h1>
+            <form action=”contactForm.php”
+              method=”POST”     
+              enctype=”multipart/form-data”  
+              name=”EmailForm”>      
+                <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+                <input name="email" type="text" class="feedback-input" placeholder="Email" />
+                <textarea name="message" class="feedback-input" placeholder="Comment"></textarea>
+                <input type="submit" value="SUBMIT"/>
+            </form>
           </div>
+
+          <div class="contact-info">
+            <p>Our Contact details</p>
+            <h2>Let's Start a Project</h2>
+            <p>Give us a call or drop by anytime, we endeavour to answer
+               all enquiries within 24 hours on business days.
+               We will be happy to answer your questions.</p>
+               <div class="contact-icon">
+                 <i class="fas fa-map-marker-alt mr-0"></i>
+            <h4>Visit Our Office</h4>
+            <a href="https://goo.gl/maps/RHv4bG4AmDtsioM38" target="_blank" id="locationcontact">Cape Town, South Africa </a>
+               </div>
+               <div class="contact-icon">
+
+            <i class="fa fa-envelope mr-0"></i>
+            <h4>Email Us</h4>
+            <a href="mailto:andries@alertboundary.co.za" id="email">andries@alertboundary.co.za</a>
+               </div>
+                <div class="contact-icon">        
+                    <i class="fa fa-phone-square mr-0"></i>
+                    <h4>Call Us</h4>
+                    <a href="tel:#">(+27) 825755909</a>
+                </div>
+          
+          </div>
+        </div>  
+      </section>
+      
+      <section>
+        
+          
+           
+       
          </section>
 
 
