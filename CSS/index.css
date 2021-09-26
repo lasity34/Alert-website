@@ -911,7 +911,7 @@ a:after {
     display: flex;
     justify-content:space-evenly; 
     align-items:center;
-    
+    margin: 0 auto;
 }
 
 .document-column {
@@ -925,6 +925,7 @@ a:after {
     color: #e0e0e0;
     border-radius: 100%;
     font-size: 1.5rem;
+
 }
 
 .document-column img {
