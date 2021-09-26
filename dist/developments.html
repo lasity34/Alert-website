@@ -6,17 +6,19 @@
 	<meta name="description" content="Construction Html5 Template">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	
+  
+  
 	<link rel="stylesheet" href="./CSS/bootstrap.css">
-    <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="./CSS/animate.css">
-	
-    
-    <link rel="stylesheet" href="./CSS/elusive-webfont.css">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
-    
-    <script src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/modernizr.custom.js"></script>
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="./CSS/animate.css">
+  <link rel="stylesheet" href="./CSS/development.css">
+  <link rel="stylesheet" href="./CSS/elusive-webfont.css">
+  <link rel="stylesheet" href="https://npmcdn.com/flickity@1.2/dist/flickity.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:300,400,700&display=swap" rel="stylesheet">
+
+  <script src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/modernizr.custom.js"></script>
 	   
     <title>Alert Boundary</title>
 </head>
@@ -28,14 +30,18 @@
 	    <div class="navbar navbar-default navbar-fixed-top">
 	      <div class="container">
 	        <div class="navbar-header">
-	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-	          	<i class="el-icon-lines"></i>
+	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" id="navbar-icon">
+	          	<div class="container-button" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
 	          </button>
-	          <a class="navbar-brand hidden-xs hidden-sm" href="#home"><img src="./Resources/LOGO ALERT CHRIS.png" width="150px" alt=""></a>
+	          <a class="navbar-brand hidden-xs hidden-sm" href="./index.html"><img src="./Resources/LOGO ALERT CHRIS.png" width="120px" alt=""></a>
 	        </div>
-	        <div class="navbar-collapse collapse">
-	          	<ul class="nav navbar-nav">
-		            <li><a href="./index.html" class="smoothScroll">Home</a></li>
+	        <div class="navbar-collapse collapse"  >
+	          	<ul class="nav navbar-nav" id="nav-icon" >
+                    <li><a href="./index.html" class="smoothScroll">Home</a></li>
 					<li> <a href="./about.html" class="smoothScroll">About Us</a></li>
 					<li> <a href="./services.html" class="smoothScroll">Services</a></li>					
 					<li> <a href="./developments.html" class="smoothScroll">Developments</a></li>
@@ -45,6 +51,9 @@
 	      </div>
 	    </div>
     </div>
+
+
+
 	<div id="banner-area" class="banner-area" >
         <div class="banner-text">
           <div class="container">
@@ -62,48 +71,135 @@
         </div><!-- Banner text end -->
       </div><!-- Banner area end -->
 
-	  <footer class="section footer-classic context-dark bg-image " style="background: #2d3246;">
-        <div class="container">
-          <div class="row row-30">
-            <div class="col-md-4 col-xl-5">
-              <div class="pr-xl-4 footquote">
-                <p>the number One Choice when it comes to PVC Fencing. Contact Absolut Fencing Today for a Free Quotation.</p>
-                <!-- Rights-->
-                <p class="rights"><span>©  </span><span class="copyright-year">2021</span><span> </span><span>Copyright</span><span>. </span><span>All Rights Reserved.</span></p>
+      <section class="carousel-section">
+        <div class="carousel-container">
+          <div class="extra-container">
+              <h2>TamboersKloof</h2>
+                <div class="carousel js-flickity " data-flickity-options='{ "imagesLoaded":"true", "autoPlay": "true", "watchCSS":"true" }'>
+                  <div class="carousel-cell">
+                      <img src="./images/developments/tamb 4.jpeg">
+                  </div>
+                  <div class="carousel-cell">
+                      <img src="./images/developments/tamb 5.jpeg">
+                  </div>
+                  <div class="carousel-cell">
+                      <img src="./images/developments/tamb 3.jpeg">
+                  </div>
+                  <div class="carousel-cell">
+                      <img src="./images/developments/Tamb1.jpeg" alt="">
+                  </div>
+                </div>
+          </div>
+          <div class="extra-container">
+              <h2>Gordons Bay</h2>  
+                 <div class="carousel js-flickity" data-flickity-options='{ "imagesLoaded":"true", "autoPlay": "true", "watchCSS":"true" }'>
+                    <div class="carousel-cell">
+                        <img src="./images/developments/Gordons Bay 1.jpeg">
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="./images/developments/Gordonsbay 2.jpeg">
+                    </div>
+                    <div class="carousel-cell">
+                        <img src="./images/developments/Gordons Bay 3.jpeg">
+                    </div>
+                 </div>
+          </div>
+      </div>
+
+      <div class="carousel-container">
+        <div class="extra-container">
+            <h2>Greyton</h2>
+              <div class="carousel js-flickity " data-flickity-options='{ "imagesLoaded":"true", "autoPlay": "true", "watchCSS":"true" }'>
+                <div class="carousel-cell">
+                    <img src="./images/developments/greyton 1.jpg">
+                </div>
+                <div class="carousel-cell">
+                    <img src="./images/developments/greyton 2.jpg">
+                </div>
+                <div class="carousel-cell">
+                    <img src="./images/developments/greyton 3.jpg">
+                </div>
               </div>
-            </div>
-            <div class="col-md-4">
-              <h5>Contacts</h5>
-              <dl class="contact-list">
-                <dt>Address:</dt>
-                <dd>Cape Town</dd>
-              </dl>
-              <dl class="contact-list">
-                <dt>email:</dt>
-                <dd><a href="mailto:alertboudary.co.za">alertboundary.co.za</a></dd>
-              </dl>
-              <dl class="contact-list">
-                <dt>phone Number:</dt>
-                <dd><a href="tel:#">(+27) 825755909</a>
-                </dd>
-              </dl>
-            </div>
-            <div class="col-md-4 col-xl-3">
-              <h5>Links</h5>
-              <ul class="nav-list">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About Us</a></li>
-                <li><a href="./services.html">Services</a></li>
-                <li><a href="./developments.html">Developments</a></li>
-				<li><a href="./contact.html">Contact</a></li>
-              </ul>
+        </div>
+        <div class="extra-container">
+            <h2>Greyton</h2>  
+               <div class="carousel js-flickity" data-flickity-options='{ "imagesLoaded":"true", "autoPlay": "true", "watchCSS":"true" }'>
+                  <div class="carousel-cell">
+                      <img src="./images/bg1.jpg">
+                  </div>
+                  <div class="carousel-cell">
+                      <img src="./images/bg2.jpg">
+                  </div>
+                  <div class="carousel-cell">
+                      <img src="./images/bg3.jpg">
+                  </div>
+               </div>
+        </div>
+    </div>
+      </section>
+     
+   
+
+
+      <footer class="section footer-classic context-dark bg-image " style="background: #2d3246;">
+        <div class="container footcontainer">
+          <div class="row row-30">
+          <div class="col-md-4 col-xl-5">
+            <div class="pr-xl-4 footquote">
+            <p>As one of Cape Town's leading suppliers & installers of steel fencing materials, here at Envirometal Steel, 
+              we believe in creating an experience where you the customer, comes first. For steel fencing supplies and qualified fencing installers, 
+              we offer products from Cape Town's most trusted brands and can source products for you at competitive prices.</p>
+            <!-- Rights-->
+            <p class="rights"><span>©  </span><span class="copyright-year">2021</span><span> </span><span>Copyright</span><span>. </span><span>All Rights Reserved.</span></p>
             </div>
           </div>
+          <div class="col-md-4">
+            <h5>Contacts</h5>
+            <dl class="contact-list">
+            <dt>Address:</dt>
+            <dd>80 Eksteen Street
+              <br>
+              Loevenstein
+              <br>
+              Bellville
+              <br>
+              7530</dd>
+            </dl>
+            <dl class="contact-list">
+            <dt>email:</dt>
+            <dd><a href="mailto:andries@alertboundary.co.za">andries@alertboundary.co.za</a></dd>
+            </dl>
+            <dl class="contact-list">
+            <dt>phone Number:</dt>
+            <dd><a href="tel:#">(+27) 825755909</a>
+            </dd>
+            </dl>
+          </div>
+          <div class="col-md-4 col-xl-3">
+            <h5>Links</h5>
+            <ul class="nav-list">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./developments.html">Developments</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            </ul>
+          </div>
+          </div>
         </div>
-        
-      </footer>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
+
+
+
+
+     
+   
+      <script src="js/jquery.min.js"></script>
+      <script src="https://npmcdn.com/flickity@1.2/dist/flickity.pkgd.min.js"></script>
+      <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/plugins.js"></script>
-	<script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+    
 </body>
 </html>
+

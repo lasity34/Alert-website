@@ -35,9 +35,9 @@ jQuery(document).ready(function(){
       $('#headerwrap').css('height', windowsHeight + 'px');
     
       $('#headerwrap').backstretch([
-            "./images/home images/ImageHeader.jpeg"
-          , "images/bg2.jpg"
-          , "images/bg3.jpg"
+            "./images/developments/tamb 4.jpeg"
+          , "./images/developments/tamb 5.jpeg"
+          , "./images/developments/tamb 3.jpeg"
         ], {duration: 4000, fade: 1350});
     
     jQuery(document).ready(function(){

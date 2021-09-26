@@ -22,7 +22,7 @@ jQuery(document).ready(function () {
 jQuery('.navbar-default').addClass('opaqued');
 var windowsHeight = $(window).height();
 $('#headerwrap').css('height', windowsHeight + 'px');
-$('#headerwrap').backstretch(["./images/home images/ImageHeader.jpeg", "images/bg2.jpg", "images/bg3.jpg"], {
+$('#headerwrap').backstretch(["./images/developments/tamb 4.jpeg", "./images/developments/tamb 5.jpeg", "./images/developments/tamb 3.jpeg"], {
   duration: 4000,
   fade: 1350
 });
